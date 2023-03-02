@@ -1,26 +1,32 @@
     body{
-        background-color: #d2b48c;     
+        background-color: #d2b48c;
+        font-family: sans-serif;     
     }
-    header{
-            font-size: x-large;
-            font-family: sans-serif;
-            text-align: center;
-     }
+
+#navMenu{
+        margin: 10px 10px 0px 10px;
+        background-color: #675c47;
+        height: 108px;
+    }
+#slogan{
         
-    section{
-            margin-left: 20%;
-            margin-right: 20%;
-            border: 2px dotted black;
-            padding:  10px 10px 10px 10px;
-            font-family: sans-serif;
+        float: right;
+    }
+
+    .sectionsWrapper{
+        margin-left: 20%;
+        margin-right: 20%;
+        border: 2px dotted black;
+        padding:  10px 10px 10px 10px;
+    }
+  
+    #availableProducts{
+         
+         
     }
 
     footer{
-            margin-left: 20%;
-            margin-right: 20%;
-            border: 2px dotted black;
-            padding:  10px 10px 10px 10px;
-            font-family: sans-serif;
+            
             text-align: center;
     }
 
@@ -28,3 +34,8 @@
             font-size: x-large;
             text-align: center;
         }
+
+    #socialMediaLogo{
+        height: 30px;
+        width: 30px;
+    }
