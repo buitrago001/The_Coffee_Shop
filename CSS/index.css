@@ -1,0 +1,30 @@
+    body{
+        background-color: #d2b48c;     
+    }
+    header{
+            font-size: x-large;
+            font-family: sans-serif;
+            text-align: center;
+     }
+        
+    section{
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 2px dotted black;
+            padding:  10px 10px 10px 10px;
+            font-family: sans-serif;
+    }
+
+    footer{
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 2px dotted black;
+            padding:  10px 10px 10px 10px;
+            font-family: sans-serif;
+            text-align: center;
+    }
+
+    #beveragetitle{
+            font-size: x-large;
+            text-align: center;
+        }
