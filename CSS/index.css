@@ -1,78 +1,88 @@
-    body{
-        background-color: #d2b48c;
-        font-family: sans-serif;     
-    }
+body{
+    background-color: #d2b48c;
+    font-family: sans-serif;     
+}
 
-     #mainHeader{
-        margin: 10px 10px 0px 10px;
-        background-color: #675c47;
-        height: 108px;
-    }
-    #coffeeShopLogo{
-        height: 100px;
-        width: 100px;; 
+div #tableContainer{
+    display: table;
+}
+
+div #tableRow{
+    display: table-row;
+}
+
+
+    #mainHeader{
+    margin: 10px 10px 0px 10px;
+    background-color: #675c47;
+    height: 108px;
+}
+#coffeeShopLogo{
+    height: 100px;
+    width: 100px;; 
+    
+}
+
+#sloganImage{
+    height: 100px;
+    width: 100px;; 
+    float: right;
+    margin: 5px 10px 0px 0px;
+}
+
+nav{
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+
+}
+
+nav ul{
+    margin: 0px;
+    list-style: none;
+    padding: 5px 0px 5px 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, ul li a:visited{
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+ul li:selected{
+    background-color: #c8b99c;
+}
+
+.sectionsWrapper{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px dotted black;
+    padding:  10px 10px 10px 10px;
+}
+
+main{
+    display: table-cell;
+}
+
+#availableProducts{
+        display: table-cell;  
+}
+
+footer{
         
+        text-align: center;
+}
+
+#beveragetitle{
+        font-size: x-large;
+        text-align: center;
     }
 
-    #sloganImage{
-        height: 100px;
-        width: 100px;; 
-        float: right;
-        margin: 5px 10px 0px 0px;
-    }
-
-    nav{
-        background-color: #efe5d0;
-        margin: 10px 10px 0px 10px;
-
-    }
-
-    nav ul{
-        margin: 0px;
-        list-style: none;
-        padding: 5px 0px 5px 0px;
-    }
-
-    nav ul li {
-        display: inline;
-        padding: 5px 10px 5px 10px;
-    }
-
-    nav ul li a:link, ul li a:visited{
-        color: #954b4b;
-        border-bottom: none;
-        font-weight: bold;
-    }
-
-    ul li:selected{
-        background-color: #c8b99c;
-    }
-
-    .sectionsWrapper{
-        margin-left: 20%;
-        margin-right: 20%;
-        border: 2px dotted black;
-        padding:  10px 10px 10px 10px;
-    }
-
-   
-  
-    #availableProducts{
-         
-         
-    }
-
-    footer{
-            
-            text-align: center;
-    }
-
-    #beveragetitle{
-            font-size: x-large;
-            text-align: center;
-        }
-
-    #socialMediaLogo{
-        height: 30px;
-        width: 30px;
-    }
+#socialMediaLogo{
+    height: 30px;
+    width: 30px;
+}
