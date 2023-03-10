@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Coffee Shop - Home</title>
     <link rel="stylesheet" href="../The_Coffee_Shop/CSS/index.css">
-    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/header_footer.css">
 </head>
 <body>
     <header id="mainHeader">
@@ -22,7 +22,7 @@
         <ul>
             <li><a href="./index.html">Home</a> </li>
             <li><a href="./news.html">Blog</a> </li>
-            <li><a href="./recipes.html">Recepies</a> </li>
+            <li><a href="./recipes.html">Recipes</a> </li>
             <li><a href="./products.html">Product</a> </li>
             <li><a href="./locations.html">Locations</a></li>
         </ul>
@@ -34,10 +34,18 @@
             <aside class="sectionsWrapper" id="availableProducts" >
                 <h1 id="beveragetitle">Hot Coffee Shop Beverages</h1>
                 <ul>
-                    <li>House blend	$1.49</li>
-                    <li>Mocha Cafe Latte $2.35</li>
-                    <li>Cappuccino $1.89</li>
-                    <li>Chai Tea $1.85</li>
+                    <li>
+                        <img src="./images/beverages/house_blend.jpeg" alt="house blend" id="beverages"> House blend	$1.49
+                    </li>
+                    <li>
+                        <img src="./images/beverages/mocha_cafe.jpeg" alt="Mocha" id="beverages"> Mocha Cafe Latte $2.35
+                    </li>
+                    <li>
+                        <img src="./images/beverages/capuccino.jpeg" alt="Cappuccino" id="beverages"> Cappuccino $1.89
+                    </li>
+                    <li>
+                        <img src="./images/beverages/chai_tea.jpeg" alt="Chai tea" id="beverages"> Chai Tea $1.85
+                    </li>
                 </ul>
             </aside>
         
@@ -47,21 +55,53 @@
                     <article>
                         <header>
                             <h1>The Gentlemen Baristas unveils new London roastery </h1>
-                            <time datetime="2023-03-02"></time>
+                            <time datetime="2023-03-10">March 10th 2023</time>
                         </header>
-                        <header><h1>Single-serve coffee and out-of-home recovery boost Caffè Borbone’s 2022 sales</h1>
-                            <time datetime="2023-03-02">March 9th 2023</time>
+                        <header><h1>Single-serve coffee and out-of-home recovery boost Caffè Borbones 2022 sales</h1>
+                            <time datetime="2023-03-09">March 9th 2023</time>
                         </header>
-                        <header><h1>Are coffee shops open in tier 3?</h1><time datetime="2023-03-02"></time></header>
-                        <header><h1>Starbucks cutting back on some drinks because of nationwide supply shortage</h1><time datetime="2023-03-02"></time></header>
-                        <header><h1>Dunkin' is dropping 'Donuts' from its name and people are freaking out</h1><time datetime="2023-03-02"></time></header>
-                        <header><h1>eFederación Nacional de Cafeteros en la lista de empresas más responsables según Merco</h1><time datetime="2023-03-02"></time></header>
+                        <header>
+                            <h1>Are coffee shops open in tier 3?</h1>
+                            <time datetime="2023-03-08">March 8th 2023</time>
+                        </header>
+                        <header>
+                            <h1>Starbucks cutting back on some drinks because of nationwide supply shortage</h1>
+                            <time datetime="2023-03-06">March 6th 2023</time>
+                        </header>
+                        <header>
+                            <h1>Dunkin' is dropping 'Donuts' from its name and people are freaking out</h1>
+                            <time datetime="2023-03-04">March 4th 2023</time>
+                        </header>
+                        <header>
+                            <h1>Federación Nacional de Cafeteros en la lista de empresas más responsables según Merco</h1>
+                            <time datetime="2023-03-02">March 2nd 2023</time>
+                        </header>
                     </article>
                 </section>
             </main>
         
             <section class="sectionsWrapper" id="quickshop">
                 <h1>Quick Shop</h1>
+                <form action="quickShop">
+                    <p>Select Product</p>
+                    <select name="product" id="products">
+                        <option value="products">Coffee</option>
+                        <option value="products">Cafe</option>
+                        <option value="products">Caffe</option>
+                        <option value="products">Kope</option>
+                    </select>
+
+                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+                    <p>Enter your informaiton</p>
+                    <input class="quickShopForm" type="text" placeholder="Fist Name" id="firstName">
+                    <input class="quickShopForm" type="text" placeholder="Last Name" id="lastName">
+                    <input class="quickShopForm" type="text" placeholder="Street Address" id="streetAddress">
+                    <input class="quickShopForm" type="tel" placeholder="Phone number" id="phoneNumber">
+                    <br>
+                    <input type="submit" value="Purchase">
+
+                </form>
             </section>
         </div>
 

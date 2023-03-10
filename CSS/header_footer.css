@@ -1,0 +1,79 @@
+body{
+    background-color: white;
+    font-family: sans-serif;     
+}
+
+div #tableContainer{
+    display: table;
+}
+
+div #tableRow{
+    display: table-row;
+}
+
+#mainHeader{
+    margin: 10px 10px 0px 10px;
+    background-color: #675c47;
+    height: 108px;
+}
+
+#coffeeShopLogo{
+    height: 100px;
+    width: 100px;
+}
+
+#sloganImage{
+    height: 100px;
+    width: 100px;; 
+    float: right;
+    margin: 5px 10px 0px 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    background-color: #efe5d0;
+    margin: 5px 10px 10px 10px;
+}
+
+nav ul{
+    margin: 0px;
+    list-style: none;
+    padding: 5px 0px 5px 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, ul li a:visited{
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+nav ul li:selected{
+    background-color: #c8b99c;
+}
+
+nav ul li:hover{
+    background-color: peachpuff;
+}
+
+.sectionsWrapper{
+    padding:  10px 10px 10px 10px;
+}
+
+footer{   
+    margin: 10px;
+    text-align: center;
+    background-color: #675c47;   
+}
+
+#socialMediaLogo{
+    height: 30px;
+    width: 30px;
+}
